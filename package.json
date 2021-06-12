@@ -1,0 +1,26 @@
+{
+  "name": "node-ts-notification-servcice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd dist && node index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "ts-node": "^10.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@types/mustache": "^4.1.1",
+    "kafka-node": "^5.0.0",
+    "mongoose": "^5.12.13",
+    "mustache": "^4.2.0"
+  }
+}
